@@ -18,7 +18,7 @@ export default function Signup() {
     async function handleSignup() {
         setShowLoader(true)
         try{
-            const res = await fetch("https://patm-backend.vercel.app/api/v1/user/signup", {
+            const res = await fetch("https://paytm-completed.vercel.app/api/v1/user/signup", {
                 method: "POST",
                 body: JSON.stringify({
                     username: username,
