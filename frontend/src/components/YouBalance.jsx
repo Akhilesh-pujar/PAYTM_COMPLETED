@@ -9,7 +9,7 @@ export default function YourBalance(){
     const token = localStorage.getItem("myToken");
 
     useEffect(() => {
-        fetch("http://localhost:3000/api/v1/account/balance", {
+        fetch("https://patm-backend.vercel.app/api/v1/account/balance", {
             method: "GET",
             headers: {
             "Content-Type": "application/json",
