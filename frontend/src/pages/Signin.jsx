@@ -17,7 +17,7 @@ export default function Signin(){
         setShowLoader(true);
 
         try {
-            const res = await fetch("https://paytm-completed.vercel.app/api/v1/user/signin", {
+            const res = await fetch("http://localhost:3000/api/v1/user/signin", {
                 method: "POST",
                 body: JSON.stringify({
                     username: username,

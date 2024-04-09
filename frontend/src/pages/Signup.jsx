@@ -18,7 +18,7 @@ export default function Signup() {
     async function handleSignup() {
         setShowLoader(true)
         try{
-            const res = await fetch("https://paytm-completed.vercel.app/api/v1/user/signup", {
+            const res = await fetch("http://localhost:3000/api/v1/user/signup", {
                 method: "POST",
                 body: JSON.stringify({
                     username: username,
@@ -44,7 +44,7 @@ export default function Signup() {
             localStorage.setItem("myToken", data.token);
 
             setShowLoader(false)
-            navigate("/dashbord")
+            navigate("/home/dashbord")
         }catch(err){
             console.log("Request Crashed!");
         }

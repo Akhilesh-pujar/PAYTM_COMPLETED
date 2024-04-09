@@ -15,7 +15,7 @@ export default function SendMoneyModel(){
 
     async function handleTransaction(){
         setShowLoader(true);
-        const res = await fetch(`https://patm-backend.vercel.app/api/v1/account/transfer`, {
+        const res = await fetch(`http://localhost:3000/api/v1/account/transfer`, {
             method: "POST",
             body: JSON.stringify({
                 to: transferToUser.username,
@@ -35,7 +35,7 @@ export default function SendMoneyModel(){
         const data = await res.json();
         setShowLoader(false)
         alert(data.msg);
-        navigate("/dashbord");
+        navigate("/home/dashbord");
     }
 
 
