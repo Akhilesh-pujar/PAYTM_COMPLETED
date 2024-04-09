@@ -25,6 +25,11 @@ This is a Paytm clone application built using the MERN stack (MongoDB, Express.j
 - **Authentication**: JSON Web Tokens (JWT)
 - **Payment Integration**: (Simple money sending and receiving)
 
+  ## Usage
+
+- It is just learning purpose and I made this project with help of harkirat singh.
+-Only education purpose.
+
 ## Installation
 
 1. Clone the repository:
@@ -33,18 +38,21 @@ This is a Paytm clone application built using the MERN stack (MongoDB, Express.j
 
 ```bash
    cd paytm-clone
+   
    npm install
 
 
    cd client 
+
    npm install
+   
    npm run dev
 
 
-  ## Usage
 
-- It is just learning purpose and I made this project with help of harkirat singh.
--Only education purpose.
+
+
+
 
 
 
