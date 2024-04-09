@@ -36,6 +36,8 @@ This is a Paytm clone application built using the MERN stack (MongoDB, Express.j
    ```bash
    git clone https://github.com/your-username/paytm-clone.git
 
+2. Go to root dir:
+
 ```bash
    cd paytm-clone
    
@@ -45,7 +47,7 @@ This is a Paytm clone application built using the MERN stack (MongoDB, Express.j
    cd client 
 
    npm install
-   
+
    npm run dev
 
 
